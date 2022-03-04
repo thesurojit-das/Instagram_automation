@@ -12,7 +12,7 @@ bot.follow("elonrmuskk")
 bot.send_message("Hello from Surojit", ['user1','user2'])
 
 ######  get follower info #######
-my_followers = bot.get_user_followers("thesurojit_ooficial")
+my_followers = bot.get_user_followers("thesurojit_official")
 for follower in my_followers:
     print(follower)
 
